@@ -1,3 +1,56 @@
-body {
-
+h1{
+  background-color: green; 
+  color: white;
+  height:40px;
+  width: 320px;
+  border: solid black 3px;
+  text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+h2{
+  color: #FF1102;
+  text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+class{
+  text-allign: center;
+}
+body{
+  background-image:url(https://i1.rgstatic.net/ii/profile.image/278579142250499-1443429851916_Q512/Yasutaka-Hayasaka.jpg);
+}
+img{
+  border: solid green 3px
+}
+img:hover{
+  border: solid blue 3px;
+    width: 300px;
+}
+nav {
+  list-style-type: none;
+  background-color: pink;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding:20px;
+  text-shadow: -1px 1px 2px #000,
+}
+a{
+  color: #10DBA1;
+  text-decoration: none;
+  
+}
+li{
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+}
+li:hover{
+  display:inline;
+  padding:20px;
+  background-color:red;
 }
